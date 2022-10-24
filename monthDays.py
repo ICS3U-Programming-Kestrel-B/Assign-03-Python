@@ -14,8 +14,6 @@ def main():
     print("This program asks for a month and")
     print("year and tells the user how many")
     print("days are/were in that month")
-    print("(Leap years are accounted from 2000")
-    print("to present day)")
     print("")
     # input
     # getting user_month
