@@ -8,6 +8,7 @@
 
 import math
 
+
 def main():
     # introductory paragraph
     print("This program asks for a month and")
@@ -26,29 +27,29 @@ def main():
     # process/output
     # giving value to month_num
     if user_month == "January":
-        month_num = 31;
+        month_num = 31
     elif user_month == "February":
-        month_num = 29;
+        month_num = 29
     elif user_month == "March":
-        month_num = 31;
+        month_num = 31
     elif user_month == "April":
-        month_num = 30;
+        month_num = 30
     elif user_month == "May":
-        month_num = 31;
+        month_num = 31
     elif user_month == "June":
-        month_num = 30;
+        month_num = 30
     elif user_month == "July":
-        month_num = 31;
+        month_num = 31
     elif user_month == "August":
-        month_num = 31;
+        month_num = 31
     elif user_month == "September":
-        month_num = 30;
+        month_num = 30
     elif user_month == "October":
-        month_num = 31;
+        month_num = 31
     elif user_month == "November":
-        month_num = 30;
+        month_num = 30
     elif user_month == "December":
-        month_num = 31;
+        month_num = 31
     else:
         print("An irregularity has occurred.\n")
         print("Please enter a valid month.\n")
@@ -82,7 +83,6 @@ def main():
         print(("{} has ").format(user_month))
         print(("{} days in ").format(month_num))
         print(("{}.").format(user_year))
-
 
 
 if __name__ == "__main__":
